@@ -4,6 +4,7 @@ Group members:
 
 x500s:
 - chony003@umn.edu
+- lown0019@umn.edu
 
 Contributions:
 - Built the Circle class methods : Tenzin Chonyi
