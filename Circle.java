@@ -14,16 +14,17 @@ public class Circle {
     public double calculateArea() {
         return 3.14 * radius * radius;
     }
-    public void setColor() {
+    public void setColor(Color color) {
     }
     public void setPos(double x, double y) {
-        xPos = x;
-        yPos = y;
+        xPos = (x+y)/2;
+        yPos = (y+x)/2;
     }
     public void setRadius(double r) {
         radius = r;
     }
-    public void getColor() {
+    public Color getColor(Color color) {
+        return color;
     }
     public double getXPos(double x) {
         return xPos;
@@ -34,5 +35,4 @@ public class Circle {
     public double getRadius(double r) {
         return radius;
     }
-
 }
